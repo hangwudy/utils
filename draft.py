@@ -37,21 +37,3 @@ def get_class_name_from_filename(file_name):
 
 # random_list('car_door')
 get_class_name_from_filename('car_door_1_2.jpg')
-
-
-def get_class_name_from_filename1(file_name):
-  """Gets the class name from a file.
-
-  Args:
-    file_name: The file name to get the class name from.
-               ie. "american_pit_bull_terrier_105.jpg"
-
-  Returns:
-    A string of the class name.
-  """
-  match = re.match(r'([A-Za-z_]+)(_+)([0-9]+)(\.jpg)', file_name, re.I)
-  print(match.groups()[0])
-  print(match.groups()[2])
-  return match.groups()[0]
-
-# get_class_name_from_filename1('american_pit_bull_terrier_105.jpg')
