@@ -32,6 +32,7 @@ def read_lines(file_path):
 
             value = line.split(" ")[-1]
             Robot_Coor.append(value)
+            
         output.append(door_longtitude)
         output = output + Robot_Coor
 
