@@ -1,0 +1,14 @@
+# Untracked files:
+
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.lot
+*.out
+*.xml
+*.gz
+*.tdo
+*.toc
+.idea/
