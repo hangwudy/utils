@@ -12,4 +12,4 @@ def list_output():
         print('NAME-{}'.format(Lt[i]))
     file.close()
 
-
+list_output()
